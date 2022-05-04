@@ -21,6 +21,19 @@ header a{
     display: inline-block;
 }
 
+p{
+    font-size: 15px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.bluetag{
+    color: blue;
+    text-decoration: underline;
+}
+
 /*header*/
 header{
     padding: 20px 5px;
@@ -94,7 +107,8 @@ h1{
 }
 
 h2{
-    padding-top: 40px;
+    padding-top: 100px;
+    padding: 30px;
 }
 
 .circle{
@@ -117,4 +131,11 @@ h2{
     width: 200px;
     height: 500px;
 }
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+
 
