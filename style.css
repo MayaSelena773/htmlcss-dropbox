@@ -42,26 +42,41 @@ header{
 }
 
 /*main-jumbotron*/
-/*test*/
+.container-big{
+    text-align: left;
+    padding: 30px 85px;
+}
+
 .jumbotron{
-    background-color: lightcoral;
-    display: flex;
-    justify-content: center;
+    background-color: lightblue;
+}
+
+h1{
+    font-size: 70px;
+    padding-bottom: 30px;
 }
 
 .content{
-    /*display: flex;
-    justify-content: flex-start;*/
+    display: flex;
+    justify-content: flex-start;
 }
 
 .leftbox{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
+    padding-top: 20px;
     border: 1px solid;
 }
 
+.leftbox p{
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+
 .rightbox{
-    width: 600px;
-    height: 400px;
+    width: auto;
+    height: 500px;
     border: 1px solid;
+    padding-top: 30px;
+    
 }
