@@ -34,6 +34,23 @@ ul{
     text-decoration: underline;
 }
 
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+    padding-bottom: 30px;
+}
+
+ul li{
+    padding-bottom: 10px;
+}
+
 /*header*/
 header{
     padding: 20px 5px;
@@ -104,6 +121,7 @@ h1{
     width: 70%;
     margin: 0 auto;
     background-color: pink;
+    margin-top: 100px;
 }
 
 h2{
@@ -128,14 +146,17 @@ h2{
 
 .column{
     border: 1px solid;
-    width: 200px;
+    width: 400px;
     height: 500px;
+    padding: 5px 20px;
 }
 
-.flex{
-    display: flex;
-    justify-content: center;
+.grey{
+    color: grey;
+    padding-bottom: 20px;
 }
+
+
 
 
 
