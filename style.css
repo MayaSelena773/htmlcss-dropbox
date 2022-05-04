@@ -18,6 +18,7 @@ header a{
     background-color: blue;
     padding: 5px 15px;
     color: white;
+    display: inline-block;
 }
 
 /*header*/
@@ -42,41 +43,78 @@ header{
 }
 
 /*main-jumbotron*/
-.container-big{
-    text-align: left;
-    padding: 30px 85px;
+.jumbotron{
+    background-color: lightblue; 
+    height: auto; 
 }
 
-.jumbotron{
-    background-color: lightblue;
+.container-big{
+    width: 80%;
+    margin: 0 auto;
 }
 
 h1{
-    font-size: 70px;
-    padding-bottom: 30px;
+    font-size: 63px;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 .content{
-    display: flex;
-    justify-content: flex-start;
+    position: relative;
+    height: 350px;
 }
 
 .leftbox{
-    width: 300px;
-    height: 300px;
-    padding-top: 20px;
-    border: 1px solid;
+    width: 400px;
+    height: 500px;
+    
 }
 
 .leftbox p{
-    padding-top: 10px;
     padding-bottom: 35px;
 }
 
 .rightbox{
     width: auto;
-    height: 500px;
-    border: 1px solid;
-    padding-top: 30px;
+    height: 450px;
+    padding-top: 40px;
+    position: absolute;
+    bottom: -60px;
+    right: -90px;
     
 }
+
+/*main-content*/
+
+/*second-title*/
+.container-small{
+    width: 70%;
+    margin: 0 auto;
+    background-color: pink;
+}
+
+h2{
+    padding-top: 40px;
+}
+
+.circle{
+    border: 1px solid;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    color: grey;
+}
+
+.blue{
+    border-color: blue;
+    border-width: 3px;
+}
+
+/*main-columns*/
+
+.column{
+    border: 1px solid;
+    width: 200px;
+    height: 500px;
+}
+
