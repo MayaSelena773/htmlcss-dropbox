@@ -19,6 +19,8 @@ header a{
     padding: 5px 15px;
     color: white;
     display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px ;
 }
 
 p{
@@ -40,20 +42,18 @@ ul{
     align-items: center;
 }
 
-.row{
-    display: flex;
-    flex-direction: row;
-    padding-left: 25px;
-    padding-bottom: 30px;
+.block{
+    display: inline-block;
 }
 
 ul li{
     padding-bottom: 10px;
+    font-size: 15px;
 }
 
 /*header*/
 header{
-    padding: 20px 5px;
+    padding: 10px 5px;
 }
 
 .headerlist{
@@ -120,7 +120,6 @@ h1{
 .container-small{
     width: 70%;
     margin: 0 auto;
-    background-color: pink;
     margin-top: 100px;
 }
 
@@ -135,6 +134,7 @@ h2{
     height: 15px;
     border-radius: 50%;
     color: grey;
+    vertical-align: middle;
 }
 
 .blue{
@@ -147,7 +147,11 @@ h2{
 .column{
     border: 1px solid;
     width: 400px;
-    height: 500px;
+    height: 700px;
+    
+}
+
+.col{
     padding: 5px 20px;
 }
 
@@ -160,6 +164,22 @@ h2{
     font-weight: 800;
 }
 
+.line{
+    margin: 20px 80px;
+
+}
+    
+.icon{
+    font-size: 12px;
+} 
+
+.icon-small{
+    font-size: 10px;
+}
+
+.i-blue{
+    color: blue;
+}
 
 
 
