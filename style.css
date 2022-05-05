@@ -44,6 +44,7 @@ ul{
 
 .block{
     display: inline-block;
+    padding-bottom: 30px;
 }
 
 ul li{
@@ -118,7 +119,7 @@ h1{
 
 /*second-title*/
 .container-small{
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -146,13 +147,14 @@ h2{
 
 .column{
     border: 1px solid;
-    width: 400px;
+    width: 600px;
     height: 700px;
+    margin-right: 50px;
     
 }
 
 .col{
-    padding: 5px 20px;
+    padding: 10px 20px;
 }
 
 .grey{
@@ -181,6 +183,32 @@ h2{
     color: blue;
 }
 
+.contact{
+    width: 930px;
+    height: 200px;
+    background-color: aquamarine;
+    
+}
+
+.boxes{
+    display: flex;
+}
+
+.text-box{
+    width: 470px;
+    height: auto;
+    border: 1px solid;
+}
+
+.btn-box{
+    width: 460px;
+    height: auto;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
 
 
 
