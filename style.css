@@ -16,11 +16,12 @@ header a{
 
 .btnblue{
     background-color: blue;
-    padding: 5px 15px;
+    padding: 10px 15px;
     color: white;
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 10px ;
+    font-size: 15px;
 }
 
 p{
@@ -50,6 +51,10 @@ ul{
 ul li{
     padding-bottom: 10px;
     font-size: 15px;
+}
+
+.small-text{
+    font-size: 13px;
 }
 
 /*header*/
@@ -154,7 +159,7 @@ h2{
 }
 
 .col{
-    padding: 10px 20px;
+    padding: 15px 20px;
 }
 
 .grey{
@@ -184,9 +189,9 @@ h2{
 }
 
 .contact{
-    width: 930px;
-    height: 200px;
-    background-color: aquamarine;
+    width: 940px;
+    height: 210px;
+    border: 1px solid;
     
 }
 
@@ -195,15 +200,13 @@ h2{
 }
 
 .text-box{
-    width: 470px;
+    width: 75%;
     height: auto;
-    border: 1px solid;
 }
 
 .btn-box{
-    width: 460px;
+    width: 25%;
     height: auto;
-    border: 1px solid;
     display: flex;
     justify-content: center;
     align-items: center;
