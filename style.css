@@ -188,6 +188,8 @@ h2{
     color: blue;
 }
 
+/*enterprise*/
+
 .contact{
     width: 940px;
     height: 210px;
@@ -210,8 +212,46 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
+
+/*partners*/
+
+.text-part{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.partner{
+    width: 550px;
+    height: auto;
+    margin-right: 65px;
+}
+
+.btnwhite{
+    border: 1px solid;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+    font-size: 15px;
+}
+
+/*actions*/
+.square{
+    border: 1px solid;
+    width: calc (100% / 3);
+    height: 300px;
+}
+
+.actions{
+    display: flex;
+    flex-direction: row;
+}
+
 
 
 
