@@ -127,6 +127,7 @@ h1{
     width: 75%;
     margin: 0 auto;
     margin-top: 100px;
+    padding-bottom: 40px;
 }
 
 h2{
@@ -173,7 +174,7 @@ h2{
 }
 
 .line{
-    margin: 20px 80px;
+    margin: 20px 90px;
 
 }
     
@@ -277,12 +278,10 @@ h3{
 
 .members{
     height: 400px;
-    background-color: aquamarine;
     display: flex;
 }
 
 .member-logos{
-    background-color: pink;
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -290,8 +289,10 @@ h3{
 }
 
 .member-text{
-    background-color: lightgreen;
+    background-color: rgb(245, 245, 245);
     width: 40%;
+    padding-left: 40px;
+    padding-top: 40px;
 }
 
 .member-box{
@@ -300,6 +301,54 @@ h3{
     border: 1px solid;
 }
 
+.member-box img{
+    width: 100px;
+    filter: invert(1);
+}
 
+/*box-colours*/
+.back-green{
+    background-color: rgb(143, 224, 154);
+}
 
+.back-azure{
+    background-color: rgb(0, 133, 208);
+}
 
+.back-bordeaux{
+    background-color: rgb(105, 0, 43);
+}
+
+.back-red{
+    background-color: rgb(255, 0, 0);
+}
+
+.back-darkred{
+    background-color: rgb(227, 0, 0);
+}
+
+.back-violet{
+    background-color: rgb(47, 0, 130);
+}
+
+.back-lightblue{
+    background-color:rgb(177, 203, 232) ;
+}
+
+.back-yellow{
+    background-color:rgb(252, 232, 9) ;
+}
+
+/*members-text*/
+
+.member-text img{
+    width: 100px;
+}
+
+.small-line{
+    margin: 20px 200px;
+}
+
+.space{
+    margin-top: 40px;
+}
