@@ -149,6 +149,10 @@ h2{
     border-width: 3px;
 }
 
+.padd-text{
+    padding-left: 20px;
+}
+
 /*main-columns*/
 
 .column{
@@ -238,6 +242,7 @@ ul h4{
 }
 
 .btnwhite{
+    background-color: white;
     border: 1px solid;
     padding: 10px 15px;
     display: inline-block;
@@ -351,4 +356,23 @@ h3{
 
 .space{
     margin-top: 40px;
+}
+
+/*business*/
+
+.business{
+    background-color: aquamarine;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.business-text{
+    width: 350px;
+}
+
+.business-btn{
+    border-color: white;
 }
