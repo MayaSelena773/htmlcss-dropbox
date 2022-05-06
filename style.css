@@ -361,7 +361,7 @@ h3{
 /*business*/
 
 .business{
-    background-color: aquamarine;
+    background-color: rgb(177, 203, 232);
     height: 300px;
     display: flex;
     justify-content: center;
