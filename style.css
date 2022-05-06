@@ -153,8 +153,9 @@ h2{
 .column{
     border: 1px solid;
     width: 600px;
-    height: 700px;
+    height: 750px;
     margin-right: 50px;
+    margin-bottom: 30px;
     
 }
 
@@ -186,6 +187,10 @@ h2{
 
 .i-blue{
     color: blue;
+}
+
+ul h4{
+    padding-bottom: 15px;
 }
 
 /*enterprise*/
@@ -243,13 +248,14 @@ h2{
 /*actions*/
 .square{
     border: 1px solid;
-    width: calc (100% / 3);
-    height: 300px;
+    width: calc(100% / 3);
+    height: 400px;
+    display: inline-block;
 }
 
 .actions{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 
